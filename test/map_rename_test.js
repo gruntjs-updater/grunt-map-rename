@@ -1,6 +1,7 @@
 'use strict';
 
-var grunt = require('grunt');
+var grunt = require('grunt'),
+	fs = require('fs');
 
 /*
  ======== A Handy Little Nodeunit Reference ========
@@ -28,9 +29,7 @@ exports.map_rename = {
 	},
 	default: function (test) {
 		test.expect(1);
-
-		test.ok(true);
-
+		test.notStrictEqual(fs.readdirSync('tmp'), ['03.txt', 'duplicate_a.txt', 'duplicate_b.txt', 'myfile.txt']);
 		test.done();
 	}
 };
