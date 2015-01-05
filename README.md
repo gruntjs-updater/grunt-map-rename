@@ -1,6 +1,6 @@
 [![NPM](https://img.shields.io/npm/v/grunt-map-rename.svg)](https://www.npmjs.com/package/grunt-map-rename)
 [![GitHub](https://img.shields.io/github/tag/b263/grunt-map-rename.svg)](https://github.com/b263/grunt-map-rename)
-[![Travis CI](https://img.shields.io/travis/b263/grunt-map-rename/master.svg)](https://travis-ci.org/b263/grunt-map-rename)
+[![Travis CI](https://img.shields.io/travis/b263/grunt-map-rename.svg)](https://travis-ci.org/b263/grunt-map-rename)
 
 # grunt-map-rename
 
