@@ -1,6 +1,14 @@
 language: node_js
 node_js:
-  - "0.10"
+- '0.10'
 before_install:
-  - npm install grunt-cli -g
+- npm install grunt-cli -g
 install: npm install
+deploy:
+  provider: npm
+  email: bb@bftmedia.de
+  api_key:
+    secure: LfC4/zzQJ1s4h9gUrl1OoRiJw1zBTh7dmEBqAB50vpUd46Tc0ub5QnO0XdaP4klupRx0vDEnvJ1j2mahb/vsVZvRHGNUritHEZi/eVktSCk5TYCK51VvoGybgBEbEi1JeFe4zaqMWfz3/1GxRDjbQZJfnVqRhiXp2eaxivMvObA=
+  on:
+    tags: true
+    repo: b263/grunt-map-rename

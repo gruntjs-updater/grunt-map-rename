@@ -1,7 +1,7 @@
 {
   "name": "grunt-map-rename",
   "description": "Rename files according to mapping data",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "homepage": "https://github.com/b263/grunt-map-rename",
   "author": {
     "name": "Bastian Bräu",
